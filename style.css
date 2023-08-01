@@ -1,0 +1,55 @@
+h2{
+    color: brown;
+    text-shadow: 4px 4px 10px blueviolet;
+}
+
+input[type="password"]{
+    color: deepskyblue;
+}
+
+input[type="email"]{
+    font-family: cursive;
+    font-style: oblique;
+}
+
+input{    
+    box-shadow: 4px 4px 10px black;
+}
+
+.secao{
+    background-color: burlywood;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quadrado{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    border: solid 2px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.retangulo{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quadradinho{
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+    border: solid 2px black;
+}
+
+

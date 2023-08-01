@@ -1,0 +1,73 @@
+<!DOCTYPE html><!--tipo de documento que estamos trabalhando-->
+<html lang="pt-br"><!--define o idioma do documento-->
+    <head><!---configurações da página-->
+    <meta charset="UTF-8"><!---teclado latino-americano-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--identifica que vai ser compatível com internet explorer-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--primeira config de responsividade-->
+    <title>Home - Meu primeiro site</title><!--nome da página-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> <!--definir o corpo da nossa página-->
+    <header><!--cabeçalho (logo,menu)-->
+        <p>GATO FODA TOCANDO PIANO</p><!--parágrafo-->
+        <p><a href="https://www.youtube.com/watch?v=-PLCJqiKbjw&list=RD-PLCJqiKbjw&start_radio=1">Jacquees - You</a><!--anexação--></p>
+        <img src="gatopiano.gif" height="150" alt=""><!--imagem-->
+    </header>
+    <main>
+        <section><!--semântica (significado)-->
+            <div><!--agrupamento de elementos VISUAL (ñ semântico)-->
+                <h1 class="gatinho">GATO PIANISTA</h1>
+                <h2>Gato foda</h2>
+                <h3>Tocando</h3>
+                <h4>um</h4>
+                <h5>piano</h5>
+                <h6>olha que fofo!!!!!!</h6>
+            </div>
+        </section>
+        <aside><!--define o conteúdo que é colocado na lateral da página referenciando o conteúdo principal-->
+            <ul><!--lista não ordenada-->
+                <li>Café</li><!--itens da lista-->
+                <li>Chá</li>
+                <li>Suco</li>                   
+            </ul>
+            <ol><!--lista ordenada-->
+                <li>Café</li>
+                <li>Chá</li>
+                <li>Suco</li>
+            </ol>
+        </aside>
+
+        <form><!--define um formulário na página-->
+            <label for="Nome">Nome:</label>
+            <input type="text">
+
+            <label for="Senha">Senha:</label>
+            <input type="password">
+
+            <label for="Data">Data:</label>
+            <input type="datetime">
+
+            <label for="E-mail">E-mail:</label>
+            <input type="email">
+
+            <button>Enviar</button>
+        </form>
+
+        <video width="150" controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+        <section class="secao">
+            <div class="quadrado"></div>
+            <div class="quadrado"></div>
+            <div class="retangulo">
+                    <div class="quadradinho"></div>
+                    <div class="quadradinho"></div>
+                    <div class="quadradinho"></div>
+            </div>
+        </section>
+       
+    </main>
+
+</body>
+</html>
